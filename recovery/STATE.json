@@ -1,0 +1,93 @@
+{
+  "schema": "tfpr.recovery.state.v0.1",
+  "project": "Time-First-Physics-Research",
+  "repository": "pppuu7-cmd/Time-First-Physics-Research",
+  "research_date": "2026-11-08",
+  "research_date_timezone": "Europe/Moscow",
+  "iteration": "001",
+  "iteration_scope": "direction_selection_and_preregistered_next_object",
+  "iteration_status": "COMPLETE_RESEARCH_PACKAGE",
+  "direction_status": "DIRECTION_SELECTED_CONDITIONAL",
+  "main_direction": "causal_temporal_event_relations_and_counting_before_geometry",
+  "active_backup_direction": null,
+  "hypothesis_version": "H-R_v0.1",
+  "physical_theory_established": false,
+  "geometry_emergence_established": false,
+  "matter_emergence_established": false,
+  "quantum_dynamics_established": false,
+  "experimental_confirmation": false,
+  "independent_review_performed": false,
+  "scientific_content_commit": "6fdbec4ffec13699ebe0370712daab8545079c8d",
+  "scientific_content_tree": "cd2b0de6d862bba08c09b23045225c595ce32177",
+  "scientific_commit_timestamp_utc": "2026-11-07T21:34:17Z",
+  "scientific_snapshot_verification": {
+    "commit_readback": true,
+    "exact_tree_readback": true,
+    "tree_truncated": false,
+    "full_text_readback_by_exact_blob": true,
+    "scope": "seven scientific and navigation files listed below",
+    "locally_recomputed_git_object_hashes": false,
+    "cryptographic_commit_signature_verified": false,
+    "commit_signature_reason": "unsigned",
+    "scientific_independent_validation": false
+  },
+  "scientific_blobs": {
+    "README.md": "215be63962c7ddc2ae57f318eab49a08cb2f69f0",
+    "contracts/ITERATION_001_v0.1.md": "9cd9729c26e17218f37ab7b8938f84abf47714ad",
+    "research/FOUNDATIONS_v0.1.md": "ad5c56cfc2fbea29365b59605068da1951f10f93",
+    "research/LITERATURE_v0.1.md": "7491954ecf5fdfe5b6e647cd4724a8405d5d8a50",
+    "research/DIRECTION_DECISION_v0.1.md": "d9dc8d8fb3b060ca2e9ed6fd834d7a43dcb8002a",
+    "research/ROADMAP_v0.1.md": "13e36e4e82d505b2fe1fae9b32bf4fd87102559f",
+    "research/OPEN_QUESTIONS.md": "155960c373e8c2104e1c99ea49d38a038a3e6232"
+  },
+  "next_object": {
+    "id": "TFPR-ID-001",
+    "status": "PLANNED_NOT_EXECUTED",
+    "type": "analytic_finite_data_geometry_identifiability_counterexample",
+    "contract_path": "contracts/ITERATION_001_v0.1.md",
+    "contract_blob": "9cd9729c26e17218f37ab7b8938f84abf47714ad",
+    "explicit_counterexample_constructed": false,
+    "acceptance": "all exact proof obligations and controls in contract, including non-isometry, identical finite relations, all sampled Lorentzian durations and total volume",
+    "automatic_execution_authorized_this_iteration": false,
+    "next_action": "stop_iteration_001; await a separate continuation instruction"
+  },
+  "execution": {
+    "scientific_numerical_runs": 0,
+    "local_scientific_computation": false,
+    "workflow_dispatches": [],
+    "jobs": [],
+    "checkpoints": [],
+    "new_schedules": [],
+    "background_work": false,
+    "other_repositories_modified": false,
+    "future_allowed_runner_class": "standard_GitHub_hosted_only",
+    "self_hosted_allowed": false,
+    "paid_larger_runners_allowed": false
+  },
+  "initial_repository_check": {
+    "public": true,
+    "empty_contents": true,
+    "branches": [],
+    "push_permission_reported": true,
+    "actions_runs_api_accessible": true,
+    "observed_workflow_runs_count": 0,
+    "actual_actions_dispatch_capability": "UNTESTED",
+    "actions_policy_and_available_concurrency": "UNKNOWN"
+  },
+  "reading_coverage": {
+    "full": ["BGV03"],
+    "selected_substantial_sections": ["J17", "J20", "S13", "P03", "CS87", "M05", "RS99", "PW83", "CR94", "PL18", "DESI25"],
+    "original_full_text_unavailable": ["J16", "M77"],
+    "full_coverage_and_versions": "research/LITERATURE_v0.1.md",
+    "external_source_byte_archives_preserved": false
+  },
+  "open_dependencies": [
+    "selected dynamics and measure on histories",
+    "physical observation and clock construction without circular matter assumptions",
+    "finite-data reconstruction scope, additional data and resolution",
+    "continuum regime, dimension, locality and metric scale",
+    "matter, quantum and gravitational consistency",
+    "independent review and distinguishable predictions"
+  ],
+  "publication_note": "This file pins the preceding scientific snapshot, not its own containing commit. The subsequent recovery commit and its blobs must be verified externally; a self-referential commit hash is not claimed. Git readback is preservation evidence, not scientific validation."
+}
